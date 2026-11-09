@@ -1,0 +1,4 @@
+(executable
+ (public_name ocluster-top)
+ (name main)
+ (libraries notty notty.lwt lwt lwt.unix capnp-rpc capnp-rpc-lwt capnp-rpc-unix ocluster-api cmdliner logs fmt))

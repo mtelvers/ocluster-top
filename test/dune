@@ -1,0 +1,6 @@
+(test
+ (name test_show)
+ (modules test_show show)
+ (libraries lwt))
+
+(copy_files ../bin/show.ml)
